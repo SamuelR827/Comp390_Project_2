@@ -6,7 +6,7 @@ COMP 390-001
 
 ---
 
-This program filters a data set of meteors found from the nasa
+This program filters a data set of meteors found from the NASA
 database. Each meteor entry is put into a table based on the regions they
 fell. This is determined by finding the meteors latitude and longitude.
 There are seven continental regions used as tables. The regions are formatted
@@ -15,11 +15,17 @@ as bounding boxes.
 Geolocation bounding box -- (left,bottom,right,top)
 
 Africa/Middle East Region: (-17.8, -35.2, 62.2, 37.6)
+
 Europe Region: (-24.1, 36, 32, 71.1)
+
 Upper Asia Region: (32.2, 35.8, 190.4, 72.7)
+
 Lower Asia Region: (58.2, -9.9, 154, 38.6)
+
 Australia Region: (112.9, -43.8, 154.3, -11.1)
+
 North America Region: (-168.2, 12.8, -52, 71.5)
+
 South America Region: (-81.2, -55.8, -34.4, 12.6)
 
 ---
@@ -30,6 +36,8 @@ python installed. Download the project and put the folder
 in a location of your choice. Open command line and
 use cd followed by the projects' location. One your in the project
 use command "python main.py" to run the main file of the project. You must have python 3 installed to run this script.
+A database file will be created or modified if it already exits which contains all the
+tables and data to view.
 
 ---
 

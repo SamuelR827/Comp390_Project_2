@@ -5,7 +5,7 @@ def main():
     """ This function call the necessary functions from the database_functions module
         that are required for the program to fully run, each object(response, json, connection,
         cursor) is assigned to a variable, so it can easily use as parameters
-        for future functions."""
+        for calling future functions."""
     response_obj = issue_get_request('https://data.nasa.gov/resource/gh4g-9sfh.json')
     json_obj = convert_content_to_json(response_obj)
     db_connection = connect_to_database()
